@@ -1,0 +1,27 @@
+.hero {
+  height: 90vh;
+  background: linear-gradient(to right, #111, #222);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero button {
+  margin: 10px;
+  padding: 12px 25px;
+  border: none;
+  background-color: #ff6b00;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 20px;
+  }
+}
