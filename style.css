@@ -1,0 +1,39 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 15px 0;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 12px 80px;          
+  border-radius: 60px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: fit-content;
+  min-width: 950px;             
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+.navbar a {
+  text-decoration: none;
+  color: #0f2d4a;
+  font-weight: 700;
+  font-size: 1.25rem;           
+  padding: 10px 26px;           
+  border-radius: 50px;
+  transition: all 0.32s ease;
+}
+.navbar a:hover,
+.navbar a.active {
+  color: white;
+  background: #ff7a00;
+  transform: scale(1.08);
+}
